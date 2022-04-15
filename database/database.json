@@ -1,47 +1,11 @@
 {
   "users": {
-    "6285715590172@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    },
     "6282122365620@s.whatsapp.net": {
       "afkTime": -1,
       "afkReason": "",
       "limit": "Infinity"
     },
-    "6283813908183@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    },
-    "6281313584844@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    },
-    "6285162603180@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": "Infinity"
-    },
-    "6285777595607@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    },
-    "6283845804845@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    },
-    "62895384423010@s.whatsapp.net": {
-      "afkTime": -1,
-      "afkReason": "",
-      "limit": 2
-    }
-  },
-  "chats": {
+     "chats": {
     "6285715590172@s.whatsapp.net": {
       "mute": false,
       "antilink": false
