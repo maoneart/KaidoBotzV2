@@ -1,15 +1,22 @@
 {
   "users": {
-    "6282122365620@s.whatsapp.net": {
+    "6285162603180@s.whatsapp.net": {
       "afkTime": -1,
       "afkReason": "",
       "limit": "Infinity"
     },
-     "chats": {
-    "6285715590172@s.whatsapp.net": {
-      "mute": false,
-      "antilink": false
+    "6289531724196@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 2
     },
+    "6282122365620@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": "Infinity"
+    }
+  },
+  "chats": {
     "6282122365620@s.whatsapp.net": {
       "mute": false,
       "antilink": false
@@ -17,32 +24,9 @@
     "120363042894393643@g.us": {
       "mute": false,
       "antilink": false
-    },
-    "6281313584844@s.whatsapp.net": {
-      "mute": false,
-      "antilink": false
     }
   },
-  "database": {
-    "owner": {
-      "key": {
-        "remoteJid": "6285715590172@s.whatsapp.net",
-        "fromMe": false,
-        "id": "BAE5A37BD4234614"
-      },
-      "message": {
-        "extendedTextMessage": {
-          "text": "*_NIHH KAKK KONTAK OWNERKU_*\n\n```wa.me/6285715590172```\n\n\n*_CHAT P DOANG, GA DIBALES, UTAMAKAN SALAM_*",
-          "previewType": "NONE",
-          "contextInfo": {
-            "forwardingScore": 1,
-            "isForwarded": true
-          },
-          "inviteLinkGroupType": "DEFAULT"
-        }
-      }
-    }
-  },
+  "database": {},
   "game": {
     "tebaklagu": [],
     "family100": [],
@@ -64,13 +48,5 @@
   "others": {
     "vote": []
   },
-  "sticker": {
-    "80,107,233,57,251,43,203,114,109,134,107,190,59,112,175,221,134,25,178,149,83,100,54,219,195,97,193,91,91,227,153,151": {
-      "text": ".getmsg owner",
-      "mentionedJid": [],
-      "creator": "6285715590172@s.whatsapp.net",
-      "at": 1650040654646,
-      "locked": false
-    }
-  }
+  "sticker": {}
 }
