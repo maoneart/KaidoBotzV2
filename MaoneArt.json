@@ -11812,34 +11812,41 @@
             "registrationId": 430854904,
             "currentRatchet": {
               "ephemeralKeyPair": {
-                "pubKey": "Ba4NIY98kNiDMcRHXwyDGCjPXRQILBEywUCj7GqX/Pwm",
-                "privKey": "+LmX3BATNBJHvPSqdbY6b6cL7Z89KIMBN2z9UUJ912Y="
+                "pubKey": "BQrZE5ThqTaNALs3mRMzDvpnfYpbgFxhclqvzW4sMqgw",
+                "privKey": "eIJ1LJ7/khz1SjQ3xUZFABwL5UuMFbsKM5VMPDhD21M="
               },
-              "lastRemoteEphemeralKey": "BT+mkJDyWofl/4i2VuqHVKLMx8Zco/+y4dlvrT6VpUUR",
-              "previousCounter": 3,
-              "rootKey": "1ihFS0ibFLHby18AiSpkC9a4eedbyuXssHd3S/jNj4w="
+              "lastRemoteEphemeralKey": "BZguwNQs5SvSWOIEKXxxon9UrPBuVdzE7+nihc8j3SJr",
+              "previousCounter": 0,
+              "rootKey": "i7BQWAXnQFJH2kEr9f8OZYoSgodjeuVmf3tdWU9ZUf8="
             },
             "indexInfo": {
               "baseKey": "BRPVSuCDZuu3v2wb4BfV/+GbO9NMbqEc8FDz6hRuBcVO",
               "baseKeyType": 1,
               "closed": -1,
-              "used": 1650040338013,
+              "used": 1650041604087,
               "created": 1650040122062,
               "remoteIdentityKey": "BeVQEMd8UUVgBW/YimRygCCFfJEIW4C+ExUuvBpcliMU"
             },
             "_chains": {
               "BT+mkJDyWofl/4i2VuqHVKLMx8Zco/+y4dlvrT6VpUUR": {
                 "chainKey": {
-                  "counter": 0,
-                  "key": "apman5m1vtvKRbCHxSIV00kHTqLWpS/STpxlHlBiV04="
+                  "counter": 0
                 },
                 "chainType": 2,
                 "messageKeys": {}
               },
-              "Ba4NIY98kNiDMcRHXwyDGCjPXRQILBEywUCj7GqX/Pwm": {
+              "BZguwNQs5SvSWOIEKXxxon9UrPBuVdzE7+nihc8j3SJr": {
                 "chainKey": {
                   "counter": 0,
-                  "key": "bSD3sOk0gmdzisaJZlo3VDiO1pm+kjesaGoGp1SX7Bs="
+                  "key": "C+w7o58BXTrcSQwDZQZKjGyIhmzoRAupGhIuMbLkT+0="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BQrZE5ThqTaNALs3mRMzDvpnfYpbgFxhclqvzW4sMqgw": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "aMmWMGGRuFsnHNyrg+3ZoAj/fksxD7+3s7/snOo3D9w="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -14362,8 +14369,8 @@
         {
           "senderKeyId": 685494708,
           "senderChainKey": {
-            "iteration": 10,
-            "seed": "sY5WYLiUWG72VBVS1IbwSRBZ9YBLvnF2FyNacR+tl1M="
+            "iteration": 16,
+            "seed": "bEVMw7Ec3z3IcaiP6kPte2q1NRi0NBVECtwtR2BPR3s="
           },
           "senderSigningKey": {
             "public": "BbzUq7Tqkz+FJPAgzj/Z74czbrJwOLhLehOGgWxFEZ1p"
@@ -14374,8 +14381,8 @@
         {
           "senderKeyId": 1168362036,
           "senderChainKey": {
-            "iteration": 18,
-            "seed": "Q4XD9fOA82v38j1cjdJwIaKguVHRR0uHZPj+Akgedtw="
+            "iteration": 23,
+            "seed": "c7bC7LLbMMkx3H/kjHlVkBajFf4tF/s58hCn7fUfhOY="
           },
           "senderSigningKey": {
             "public": "BfW993It5sBRdTUXX/FX1OrZOz3VrLr6ST4430Kp8zhe",
@@ -14443,6 +14450,17 @@
           },
           "senderSigningKey": {
             "public": "Bae4b+UGzzF2YG5bzkdzYcFMr1cl7LKDeaGhpofRqRRK"
+          },
+          "senderMessageKeys": []
+        },
+        {
+          "senderKeyId": 430852367,
+          "senderChainKey": {
+            "iteration": 1,
+            "seed": "Q5DmSy6Bz/5p138x4GDTBp8RnbafT/p9+CcLzl9koV0="
+          },
+          "senderSigningKey": {
+            "public": "BVqN8FPYgKAVCu82AA99cYUEilBHE3XEFBKgsLmheUVk"
           }
         }
       ],
@@ -14528,8 +14546,8 @@
         {
           "senderKeyId": 114764627,
           "senderChainKey": {
-            "iteration": 28,
-            "seed": "B0q4S5o6WWcIwQooWaZ5uAf9Y/xrDJU6h718hsp/1No="
+            "iteration": 41,
+            "seed": "8U6vUp0SjNxS3rCG6ylTYY7GZSiTvkDIe6DzswMcFRk="
           },
           "senderSigningKey": {
             "public": "BSx6EttioiL2bFeDFYrEpZcrXaEmq+9UIs6j1QPHp0M2"
