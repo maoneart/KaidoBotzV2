@@ -11605,7 +11605,7 @@
             "indexInfo": {
               "baseKey": "BcjVeL5g0UpR6nkeRaKzUFKnFR+alrym3ljSy60J215+",
               "baseKeyType": 1,
-              "closed": -1,
+              "closed": 1650042785906,
               "used": 1650040122056,
               "created": 1650040122056,
               "remoteIdentityKey": "BSYCEOImJHYha0HJUyawfALE7hTjO6Gmby90yFN1+48S"
@@ -11624,6 +11624,41 @@
               "signedKeyId": 0,
               "baseKey": "BcjVeL5g0UpR6nkeRaKzUFKnFR+alrym3ljSy60J215+",
               "preKeyId": 2328433
+            }
+          },
+          "BZ7ox+a9QDcOvm5YFdm4XKOfHRPdujs9+HohVCg7TnJa": {
+            "registrationId": 2094569099,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BSPnXHF+UK+/F8j3INQY7HL72Jsup8s4uUqr4BV72NlC",
+                "privKey": "KKEvJCTuh3L/a4b+vwyb72wKHJP9m8eMPFcDql82wGg="
+              },
+              "lastRemoteEphemeralKey": "BZgkB1BPzFfgV+xrvbTpKRIS18OlN+PhXyJHuPzi2OV2",
+              "previousCounter": 0,
+              "rootKey": "4KcjnfXUg4TqTJ2vPti17v6bNLpkSPI9myEVySybR10="
+            },
+            "indexInfo": {
+              "baseKey": "BZ7ox+a9QDcOvm5YFdm4XKOfHRPdujs9+HohVCg7TnJa",
+              "baseKeyType": 1,
+              "closed": -1,
+              "used": 1650042785905,
+              "created": 1650042785905,
+              "remoteIdentityKey": "BROEzFMAvUbAYGKl/u4JeXbjeffi2sXVMCe2ogNpR5Aw"
+            },
+            "_chains": {
+              "BSPnXHF+UK+/F8j3INQY7HL72Jsup8s4uUqr4BV72NlC": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "f+NKeF0OfRyGlzoJfuwMj2xhi1RHULdeT/BUu96lVR4="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            },
+            "pendingPreKey": {
+              "signedKeyId": 0,
+              "baseKey": "BZ7ox+a9QDcOvm5YFdm4XKOfHRPdujs9+HohVCg7TnJa",
+              "preKeyId": 2639075
             }
           }
         },
@@ -14595,8 +14630,8 @@
         {
           "senderKeyId": 1168362036,
           "senderChainKey": {
-            "iteration": 23,
-            "seed": "c7bC7LLbMMkx3H/kjHlVkBajFf4tF/s58hCn7fUfhOY="
+            "iteration": 24,
+            "seed": "wtjbdNpEAsmIk98ycI4FtcoxJqOsdFOy39mL7x1nS/4="
           },
           "senderSigningKey": {
             "public": "BfW993It5sBRdTUXX/FX1OrZOz3VrLr6ST4430Kp8zhe",
@@ -14670,12 +14705,13 @@
         {
           "senderKeyId": 430852367,
           "senderChainKey": {
-            "iteration": 1,
-            "seed": "Q5DmSy6Bz/5p138x4GDTBp8RnbafT/p9+CcLzl9koV0="
+            "iteration": 4,
+            "seed": "oIjVSPv/Qhi4V+oa7Qqxkn1W3Qwg2g+a73+I/Td/msw="
           },
           "senderSigningKey": {
             "public": "BVqN8FPYgKAVCu82AA99cYUEilBHE3XEFBKgsLmheUVk"
-          }
+          },
+          "senderMessageKeys": []
         }
       ],
       "status@broadcast::6289507060197::0": [
@@ -14706,12 +14742,13 @@
         {
           "senderKeyId": 747906223,
           "senderChainKey": {
-            "iteration": 3,
-            "seed": "WGy+2R17g6nyjNe3CWYMyqoMETOqPAWoL0C8xCpQnzw="
+            "iteration": 4,
+            "seed": "J/EaoyUM7zO9qeDhlY8XRhGjeJGVnA/HGsWmFyfUKJs="
           },
           "senderSigningKey": {
             "public": "BSxFK1AtrP4ZgZUUtHcalN/EOdP5/iXEyAhQK02EdydP"
-          }
+          },
+          "senderMessageKeys": []
         }
       ],
       "120363042894393643@g.us::6283813908183::0": [
@@ -14825,8 +14862,8 @@
         {
           "senderKeyId": 1158719610,
           "senderChainKey": {
-            "iteration": 2,
-            "seed": "3f85/qz0GYXQN13HZS7tfGj0AuXO+JN9Px/4AIk9zrA="
+            "iteration": 4,
+            "seed": "RbOYMBx66URwimNYD8SqDnNk8oLakHXbgcCfo0oh4ik="
           },
           "senderSigningKey": {
             "public": "Bb2QBeN3wIIONP3DQbsyjnmvIokbalmyzK80y5tF9dhK"
@@ -14928,197 +14965,7 @@
         "6283843427860@s.whatsapp.net": true,
         "6282315636953@s.whatsapp.net": true
       },
-      "120363042894393643@g.us": {
-        "6283870070380@s.whatsapp.net": true,
-        "6283194461744@s.whatsapp.net": true,
-        "62895327705102@s.whatsapp.net": true,
-        "6285962363256@s.whatsapp.net": true,
-        "6285717421945@s.whatsapp.net": true,
-        "6285342508305@s.whatsapp.net": true,
-        "6285875000238@s.whatsapp.net": true,
-        "6285766892935@s.whatsapp.net": true,
-        "6285856574079@s.whatsapp.net": true,
-        "6282360786174@s.whatsapp.net": true,
-        "6283857048638@s.whatsapp.net": true,
-        "6281390952768@s.whatsapp.net": true,
-        "6285752640978@s.whatsapp.net": true,
-        "6282136673186@s.whatsapp.net": true,
-        "6287867363927@s.whatsapp.net": true,
-        "6282122365620@s.whatsapp.net": true,
-        "6288239934728@s.whatsapp.net": true,
-        "6281398237799@s.whatsapp.net": true,
-        "6281269361609@s.whatsapp.net": true,
-        "6285396486501@s.whatsapp.net": true,
-        "6288211420874@s.whatsapp.net": true,
-        "6282172695168@s.whatsapp.net": true,
-        "6283160869285@s.whatsapp.net": true,
-        "6285715590172@s.whatsapp.net": true,
-        "6282288610440@s.whatsapp.net": true,
-        "6281805532206@s.whatsapp.net": true,
-        "6287886469935@s.whatsapp.net": true,
-        "6283198967225@s.whatsapp.net": true,
-        "6283109369744@s.whatsapp.net": true,
-        "6283171478040@s.whatsapp.net": true,
-        "6281379369625@s.whatsapp.net": true,
-        "6282125363557@s.whatsapp.net": true,
-        "6281210709032@s.whatsapp.net": true,
-        "6282372448462@s.whatsapp.net": true,
-        "6285238582449@s.whatsapp.net": true,
-        "6285279243810@s.whatsapp.net": true,
-        "6282370865157@s.whatsapp.net": true,
-        "6285601437215@s.whatsapp.net": true,
-        "6282282186223@s.whatsapp.net": true,
-        "6285757893658@s.whatsapp.net": true,
-        "6285609304104@s.whatsapp.net": true,
-        "6282323556186@s.whatsapp.net": true,
-        "6282276963215@s.whatsapp.net": true,
-        "62895346900201@s.whatsapp.net": true,
-        "62895346900201:3@s.whatsapp.net": true,
-        "6283813553437@s.whatsapp.net": true,
-        "6287872013763@s.whatsapp.net": true,
-        "6281246249330@s.whatsapp.net": true,
-        "6285728069876@s.whatsapp.net": true,
-        "6285966556136@s.whatsapp.net": true,
-        "6282313428709@s.whatsapp.net": true,
-        "6285749357044@s.whatsapp.net": true,
-        "62882001796823@s.whatsapp.net": true,
-        "6285839107472@s.whatsapp.net": true,
-        "6285260320003@s.whatsapp.net": true,
-        "6281261528812@s.whatsapp.net": true,
-        "6285765731002@s.whatsapp.net": true,
-        "6281384870147@s.whatsapp.net": true,
-        "6283845713900@s.whatsapp.net": true,
-        "62895351080908@s.whatsapp.net": true,
-        "6287783108027@s.whatsapp.net": true,
-        "6282185812596@s.whatsapp.net": true,
-        "6283817457900@s.whatsapp.net": true,
-        "62895324216748@s.whatsapp.net": true,
-        "6285732256018@s.whatsapp.net": true,
-        "6285215425215@s.whatsapp.net": true,
-        "6283820443201@s.whatsapp.net": true,
-        "6282131886039@s.whatsapp.net": true,
-        "6281251645638@s.whatsapp.net": true,
-        "6285798509034@s.whatsapp.net": true,
-        "6283111609457@s.whatsapp.net": true,
-        "6285728185243@s.whatsapp.net": true,
-        "6281287041073@s.whatsapp.net": true,
-        "6285692881976@s.whatsapp.net": true,
-        "6287737810242@s.whatsapp.net": true,
-        "6283861160784@s.whatsapp.net": true,
-        "6281319778482@s.whatsapp.net": true,
-        "62881022089635@s.whatsapp.net": true,
-        "6281218641401@s.whatsapp.net": true,
-        "6289531724196@s.whatsapp.net": true,
-        "6285732795189@s.whatsapp.net": true,
-        "628812145160@s.whatsapp.net": true,
-        "6285942852692@s.whatsapp.net": true,
-        "6282213498063@s.whatsapp.net": true,
-        "6287804816394@s.whatsapp.net": true,
-        "6281328718709@s.whatsapp.net": true,
-        "6281905511401@s.whatsapp.net": true,
-        "6287840472471@s.whatsapp.net": true,
-        "6283150599455@s.whatsapp.net": true,
-        "6287886669324@s.whatsapp.net": true,
-        "6282363488971@s.whatsapp.net": true,
-        "6283878974038@s.whatsapp.net": true,
-        "6282144099019@s.whatsapp.net": true,
-        "6281977991913@s.whatsapp.net": true,
-        "6289603502924@s.whatsapp.net": true,
-        "6283813908183@s.whatsapp.net": true,
-        "62895413752240@s.whatsapp.net": true,
-        "6282351617412@s.whatsapp.net": true,
-        "6285398662056@s.whatsapp.net": true,
-        "6285398662056:6@s.whatsapp.net": true,
-        "6285171200626@s.whatsapp.net": true,
-        "62895328660102@s.whatsapp.net": true,
-        "6287847116955@s.whatsapp.net": true,
-        "6281339971989@s.whatsapp.net": true,
-        "6285782108975@s.whatsapp.net": true,
-        "6285846517428@s.whatsapp.net": true,
-        "6281313584844@s.whatsapp.net": true,
-        "6285794342926@s.whatsapp.net": true,
-        "6283141949129@s.whatsapp.net": true,
-        "6282138250588@s.whatsapp.net": true,
-        "6289509431205@s.whatsapp.net": true,
-        "6282395288214@s.whatsapp.net": true,
-        "6283813121022@s.whatsapp.net": true,
-        "6285791446836@s.whatsapp.net": true,
-        "6283838715053@s.whatsapp.net": true,
-        "628971579906@s.whatsapp.net": true,
-        "6283865516658@s.whatsapp.net": true,
-        "6288267023132@s.whatsapp.net": true,
-        "6283837999129@s.whatsapp.net": true,
-        "6288279476717@s.whatsapp.net": true,
-        "6281539222343@s.whatsapp.net": true,
-        "212618786835@s.whatsapp.net": true,
-        "6285654747021@s.whatsapp.net": true,
-        "6283163837902@s.whatsapp.net": true,
-        "62895384416792@s.whatsapp.net": true,
-        "6287840479160@s.whatsapp.net": true,
-        "6283173384012@s.whatsapp.net": true,
-        "6285810919320@s.whatsapp.net": true,
-        "6285879200852@s.whatsapp.net": true,
-        "6283804806281@s.whatsapp.net": true,
-        "6283831162902@s.whatsapp.net": true,
-        "6281999157568@s.whatsapp.net": true,
-        "6281933206477@s.whatsapp.net": true,
-        "6282373228940@s.whatsapp.net": true,
-        "6281262102254@s.whatsapp.net": true,
-        "6282175331262@s.whatsapp.net": true,
-        "62882000086967@s.whatsapp.net": true,
-        "6282143715219@s.whatsapp.net": true,
-        "6285381074917@s.whatsapp.net": true,
-        "6285704679522@s.whatsapp.net": true,
-        "6285283334952@s.whatsapp.net": true,
-        "6283845804845@s.whatsapp.net": true,
-        "6288980105689@s.whatsapp.net": true,
-        "6285261850376@s.whatsapp.net": true,
-        "6285869721068@s.whatsapp.net": true,
-        "6281455106422@s.whatsapp.net": true,
-        "6285858000146@s.whatsapp.net": true,
-        "6285298427504@s.whatsapp.net": true,
-        "62895326143238@s.whatsapp.net": true,
-        "6283879878049@s.whatsapp.net": true,
-        "6285280443596@s.whatsapp.net": true,
-        "6285777595607@s.whatsapp.net": true,
-        "62895384423010@s.whatsapp.net": true,
-        "6285158119087@s.whatsapp.net": true,
-        "6283895785186@s.whatsapp.net": true,
-        "6281928915413@s.whatsapp.net": true,
-        "6287747507026@s.whatsapp.net": true,
-        "6285752571175@s.whatsapp.net": true,
-        "6281573568133@s.whatsapp.net": true,
-        "6289639010851@s.whatsapp.net": true,
-        "6282137573411@s.whatsapp.net": true,
-        "6281326578981@s.whatsapp.net": true,
-        "6282285423035@s.whatsapp.net": true,
-        "6282236252182@s.whatsapp.net": true,
-        "6283835742607@s.whatsapp.net": true,
-        "6283137382056@s.whatsapp.net": true,
-        "6283108840984@s.whatsapp.net": true,
-        "6281246334388@s.whatsapp.net": true,
-        "6289528620660@s.whatsapp.net": true,
-        "6285878291857@s.whatsapp.net": true,
-        "6285266945531@s.whatsapp.net": true,
-        "6289514862788@s.whatsapp.net": true,
-        "6282250209369@s.whatsapp.net": true,
-        "6285885776313@s.whatsapp.net": true,
-        "6281377744395@s.whatsapp.net": true,
-        "6281283273572@s.whatsapp.net": true,
-        "6282396411225@s.whatsapp.net": true,
-        "6283845088381@s.whatsapp.net": true,
-        "6283836944405@s.whatsapp.net": true,
-        "6283836944405:2@s.whatsapp.net": true,
-        "6281334625686@s.whatsapp.net": true,
-        "6282223835967@s.whatsapp.net": true,
-        "6281324240407@s.whatsapp.net": true,
-        "6283800554904@s.whatsapp.net": true,
-        "6285758366489@s.whatsapp.net": true,
-        "6285782600680@s.whatsapp.net": true,
-        "6285162603180@s.whatsapp.net": true,
-        "6285162603180:1@s.whatsapp.net": true,
-        "6285162603180:2@s.whatsapp.net": true
-      }
+      "120363042894393643@g.us": null
     }
   }
 }
