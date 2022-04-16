@@ -6,7 +6,7 @@
 
 // Menu
 exports.menu = (botname, pushname) => {
-	return`Haii Kak ${pushname} 
+	return`Haii Kak ${pushname} 🐦
 
 Saya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏`
