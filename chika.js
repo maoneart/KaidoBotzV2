@@ -1355,23 +1355,23 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
             if (!m.isGroup) throw mess.group
             if (m.chat in vote) throw `_Masih ada vote di chat ini!_\n\n*${prefix}hapusvote* - untuk menghapus vote`
             if (!text) throw `Masukkan Alasan Melakukan Vote, Example: *${prefix + command} Owner Ganteng*`
-            m.reply(`Vote dimulai!\n\n*${prefix}upvote* - untuk ya\n*${prefix}devote* - untuk tidak\n*${prefix}cekvote* - untuk mengecek vote\n*${prefix}hapusvote* - untuk menghapus vote`)
+            m.reply(`Vote dimulai!\n\n*${prefix}setuju* - untuk ya\n*${prefix}tidak* - untuk tidak\n*${prefix}cekvote* - untuk mengecek vote\n*${prefix}hapusvote* - untuk menghapus vote`)
             vote[m.chat] = [q, [], []]
             await sleep(1000)
-            upvote = vote[m.chat][1]
-            devote = vote[m.chat][2]
+            setuju = vote[m.chat][1]
+            tidak = vote[m.chat][2]
             teks_vote = `*「 VOTE 」*
 
 *Alasan:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 TIDAK SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][2].length}
 │
@@ -1380,8 +1380,8 @@ let teks = `══✪〘 *👥 Tag All* 〙✪══
 
 *${prefix}hapusvote* - untuk menghapus vote`
 let buttonsVote = [
-  {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-  {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+  {buttonId: `${prefix}setuju`, buttonText: {displayText: 'SETUJU'}, type: 1},
+  {buttonId: `${prefix}tidak`, buttonText: {displayText: 'tidak'}, type: 1}
 ]
 
             let buttonMessageVote = {
@@ -1393,7 +1393,7 @@ let buttonsVote = [
             chika.sendMessage(m.chat, buttonMessageVote)
 	    }
             break
-               case 'upvote': {
+               case 'setuju': {
             if (!m.isGroup) throw mess.group
             if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
             isVote = vote[m.chat][1].concat(vote[m.chat][2])
@@ -1405,14 +1405,14 @@ let buttonsVote = [
 
 *Alasan:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 TIDAK SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1420,22 +1420,22 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote`
-            let buttonsUpvote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+            let buttonssetuju = [
+              {buttonId: `${prefix}setuju`, buttonText: {displayText: 'SETUJU'}, type: 1},
+              {buttonId: `${prefix}tidak`, buttonText: {displayText: 'tidak'}, type: 1}
             ]
 
-            let buttonMessageUpvote = {
+            let buttonMessagesetuju = {
                 text: teks_vote,
                 footer: chika.user.name,
-                buttons: buttonsUpvote,
+                buttons: buttonssetuju,
                 headerType: 1,
                 mentions: menvote
              }
-            chika.sendMessage(m.chat, buttonMessageUpvote)
+            chika.sendMessage(m.chat, buttonMessagesetuju)
 	    }
              break
-                case 'devote': {
+                case 'tidak': {
             if (!m.isGroup) throw mess.group
             if (!(m.chat in vote)) throw `_*tidak ada voting digrup ini!*_\n\n*${prefix}vote* - untuk memulai vote`
             isVote = vote[m.chat][1].concat(vote[m.chat][2])
@@ -1447,14 +1447,14 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
 *Alasan:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 TIDAK SETUJU 〕
 │ 
 ├ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1462,19 +1462,19 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 └────
 
 *${prefix}hapusvote* - untuk menghapus vote`
-            let buttonsDevote = [
-              {buttonId: `${prefix}upvote`, buttonText: {displayText: '𝚄𝙿𝚅𝙾𝚃𝙴'}, type: 1},
-              {buttonId: `${prefix}devote`, buttonText: {displayText: '𝙳𝙴𝚅𝙾𝚃𝙴'}, type: 1}
+            let buttonstidak = [
+              {buttonId: `${prefix}setuju`, buttonText: {displayText: 'SETUJU'}, type: 1},
+              {buttonId: `${prefix}tidak`, buttonText: {displayText: 'tidak'}, type: 1}
             ]
 
-            let buttonMessageDevote = {
+            let buttonMessagetidak = {
                 text: teks_vote,
                 footer: chika.user.name,
-                buttons: buttonsDevote,
+                buttons: buttonstidak,
                 headerType: 1,
                 mentions: menvote
             }
-            chika.sendMessage(m.chat, buttonMessageDevote)
+            chika.sendMessage(m.chat, buttonMessagetidak)
 	}
             break
                  
@@ -1485,16 +1485,16 @@ teks_vote = `*「 VOTE 」*
 
 *Alasan:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 SETUJU 〕
 │ 
-├ Total: ${upvote.length}
+├ Total: ${setuju.length}
 ${vote[m.chat][1].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 TIDAK SETUJU 〕
 │ 
-├ Total: ${devote.length}
+├ Total: ${tidak.length}
 ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
