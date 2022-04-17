@@ -728,7 +728,7 @@ exports.ownermenu = (prefix) => {
 `
 }
 
-exports.thanksto = () => {
+exports.thanksto = (prefix) => {
 	return`
 ┌── 「 *Thanks To* 」
 ├ DikaArdnt
@@ -742,6 +742,7 @@ exports.thanksto = () => {
 ├ Deff
 ├ Katame
 ├ Yuda
+├ MaoneArt
 └───────
 `
 }
